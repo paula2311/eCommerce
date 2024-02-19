@@ -1,0 +1,220 @@
+/*start main rulez*/
+body{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+h1{
+    font-size:55px ;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+/* end main rulez */
+
+/*start footer*/
+.footer {
+    background-color: #17a2b8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* start header */
+a{
+    color: #17a2b8;
+}
+.upper-bar{
+    padding: 10px;
+    background-color: #000;
+}
+.upper-bar .my-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.btn-group.my-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-bar .info-bar .item{
+    padding: 0 5px;
+    border: 1px solid #17a2b8;
+    border-radius: 12px;  
+}
+
+/* end header */
+
+/* start login page*/
+    .login-page{
+        max-width: 450px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgb(120, 127, 224);
+    }
+    .login-page form{
+        max-width: 380px;
+        margin: auto;
+    }
+    .login-page form input{
+        margin-bottom: 10px;
+    }
+    .login-page form .btn {
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .login-page .active{
+        color: #2d73bd;
+    }
+    .login-page h1{
+        color: #c0c0c0;
+    }
+    .login-page h1 span{
+        cursor: pointer;
+    }
+    .signup{
+        display: none;
+    }
+/* end login page*/
+
+
+/* start categories page*/
+.item-box{
+    position: relative;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+.item-box .img-responsive{
+    width: 250px;
+    height: 250px;
+    
+}
+.item-box .price-tag{
+    background-color: #b4b4b4;
+    padding: 2px 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-weight: bold;
+}
+.item-box .approve-status{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #ffc107;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.item-box .caption {
+    padding-left:5px;
+    background-color: #000;
+
+}
+.item-box .caption p{
+    height: 44px;
+    max-height: 44px;
+    color: #FFF
+}
+/* end categories page*/
+
+/*start profile page*/
+.info{
+    margin: 20px 0 0;
+}
+.card{
+    margin-bottom: 15px;
+}
+.info ul{
+    padding: 0;
+    margin: 0;
+}
+.info ul li{
+    padding: 10px;
+    
+}
+.info ul li:nth-child(odd){
+    background-color: #EEE;
+}
+.info ul li span{
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+.profile{
+        width: 200px;
+}
+.profile .img-responsive{
+    width: 200px;
+    height: 200px;
+}
+.thumbnail .date{
+    text-align: right;
+    font-size: 13px;
+    color: #eee;
+    font-weight: bold;
+}
+/*end profile page*/
+/* start show item page */
+.item-info h2{
+    padding: 10px;
+    margin:0 ;
+}
+.item-info p{
+    padding: 10px;
+}
+.item-info ul li{
+    padding: 10px;
+}
+.item-info ul li:nth-child(odd){
+    background-color: #eee;
+}
+.item-info ul li span{
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+.add-comment textarea{
+    display: block;
+    margin-bottom:10px ;
+    width: 500px;
+    height: 120px;
+}
+
+.add-comment .btn{
+    margin-bottom:10px;
+}
+.comment-box{
+    margin-bottom: 20px;
+}
+.comment-box .lead{
+    background-color: #e0e0e0;
+    position: relative;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.comment-box img{
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* end show item page */

@@ -1,0 +1,248 @@
+/*start main rulez*/
+body{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+/* end main rulez */
+
+/* start login form */
+.login{
+    width: 300px;
+    margin: 10px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: #e5e5e5;
+}
+/*end login form*/
+
+
+/*start dashboard page*/
+.home-stats .stat{
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.home-stats .stat i{
+    position: absolute;
+    font-size: 60px;
+    top: 35px;
+    left: 30px;
+}
+.home-stats .stat .info{
+    float: right;
+}
+.home-stats .stat a{
+    color: #fff;
+}
+.home-stats .stat a:hover{
+    text-decoration: none;
+}
+.home-stats .stat span{
+    display: block;
+    font-size: 60px;
+}
+.home-stats .st-members{
+    background-color: #3498db;
+}
+.home-stats .st-pending{
+    background-color: #c0392b;
+}
+.home-stats .st-items{
+    background-color: #d35400;
+}
+.home-stats .st-comments{
+    background-color: #8e44ad;
+}
+.latest{
+    margin-top: 30px;
+}
+.panel-heading {
+    border: 1px solid gray;
+    padding: 5px;
+}
+.panel-body {
+    background: #fff;
+    padding: 10px;   
+    margin-bottom: 30px;
+}
+.latest-users{
+    margin-bottom: 0;
+}
+.latest-users li{
+    padding: 10px ;
+    overflow: hidden;
+}
+.latest-users li:nth-child(odd){
+    background-color: #EEE;
+}
+.latest-users .pull-right{
+    padding: 2px 8px;
+    float: right;
+    margin-left: 8px;
+}
+.latest .comment-box{
+    margin: 5px 0 10px;
+}
+.latest .comment-box .member-name,
+.latest .comment-box .member-comment{
+float: left;
+}
+.latest .comment-box .member-name{
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+}
+.latest .comment-box .member-comment{
+    width: calc(100% - 100px);
+    background-color: #cccaca;
+    padding: 0 15px ;
+    border-radius: 5px;
+}
+
+
+
+/*end dashboard page*/
+
+
+/*start members edits*/
+
+h1{
+    font-size:55px ;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+.main-table{
+    box-shadow: 0 5px 10px #000;
+}
+.manage-members img{
+    width: 50px;
+    height: 50px;
+}
+.main-table td{
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+.main-table .control{
+    width: 300px;
+    
+}
+.btn{
+    padding: 3px 10px;
+}
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #fff;
+}
+.activate{
+    margin-left: 5px;
+}
+/*end members edits*/
+
+/*start category page*/
+.categories .panel-heading .ordering{
+    float: right;
+}
+.categories .ordering a{
+    text-decoration: none;
+}
+.categories .ordering  .active{
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 0 4px;
+    color: #FFF;
+}
+
+.categories .panel-heading{
+    color: #959595;
+    font-weight: bold;
+}
+.categories .panel-body{
+    padding:0 ;
+}
+.categories hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.categories .cat{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover{
+    background-color: #eee;
+}
+.categories .cat:hover .hidden-btns{
+    right: 10px;
+}
+.categories .cat .hidden-btns {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px; right: -170px;
+}
+.categories .cat .hidden-btns a{
+    margin-right: 5px;
+}
+.categories .cat h3{
+    margin: 0 ;
+    cursor: pointer;
+    color: #504f4f;
+}
+.categories .panel-body p{
+    color: #7c7979;
+}
+.categories .cat .full-view p{
+    margin: 10px 0;
+
+}
+.categories .cat:last-of-type ~ hr{
+    display: none;
+}
+.categories hr{
+    border: 1px dashed #000;
+    opacity: 0.5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.categories .cat .visible,
+.categories .cat .comment,
+.categories .cat .ads {
+    color: #fff;
+    padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+.categories .cat .visible{
+    color: #5e7185;
+}
+.categories .cat .comment{
+    color: #2c3e50;
+}
+.categories .cat .ads{
+    color: #c0392b;
+}
+.categories .add-cat{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.categories .child-head{
+    margin: 10px 0 10px 40px;
+    font-weight: bold;
+    color: #2e79db;
+}
+.categories .child-cats{
+    margin: 10px 0 10px 40px;
+    background-color: #EEE
+}
+.categories .child-cats li{
+    margin-left:20px;
+}
+
+/*end category page*/
+
